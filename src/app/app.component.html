@@ -8,8 +8,7 @@
     <td>{{movie.title}}</td>
     <td>
       <app-rating
-        [rating]="movie.rating"
-        (onRatingChange)="movie.rating = $event">
+        [(rating)]="movie.rating">
       </app-rating>
     </td>
   </tr>
